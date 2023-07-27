@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataIntegration.UI", "DataI
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataIntegration.Data", "DataIntegration.Data\DataIntegration.Data.csproj", "{628CC0EA-6077-4249-8318-856D3266BA7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataIntegration.Core", "DataIntegration.Core\DataIntegration.Core.csproj", "{A825190E-23B4-4034-9666-7A76EAABACDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataIntegration.Core", "DataIntegration.Core\DataIntegration.Core.csproj", "{A825190E-23B4-4034-9666-7A76EAABACDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

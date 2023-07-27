@@ -63,6 +63,7 @@ namespace DataIntegration.Core.Services.Helper
         //Start - API Helper functions - RestSharp
         public async Task<T> SendRestRequestAsync<T>(Method method, string requestUri,object requestData=null ,string contentType = "application/json")
         {
+            RestResponse response = null;
             try
             {
                 string URL = _baseUrl + requestUri;
@@ -84,7 +85,7 @@ namespace DataIntegration.Core.Services.Helper
                     request.AddJsonBody(requestData);
                     //request.AddParameter("application/json", requestData, ParameterType.RequestBody);
                 }
-                var response = client.ExecuteAsync(request).GetAwaiter().GetResult();
+                response = client.ExecuteAsync(request).GetAwaiter().GetResult();
                 if(response.StatusCode == HttpStatusCode.OK || response.StatusCode == HttpStatusCode.Created)
                 {
                     return JsonConvert.DeserializeObject<T>(response.Content);
@@ -95,18 +96,49 @@ namespace DataIntegration.Core.Services.Helper
                     string errorDetail = "";
                     foreach (var error in errorResponse.oerrorDetails)
                     {
+
                         if (errorResponse.oerrorDetails.Count == 1)
                         {
-                            errorDetail += error.detail;
+                            errorDetail = error.detail;
                         }
-                        errorDetail += error.detail + " and ";
+                        else
+                        {
+                            errorDetail += error.detail + " - " ;
+                        }
+                        
                     }
                     
                     throw new ApiException($"API Error: {errorDetail}", null, response.StatusCode);
                 }
             }
-            catch (Exception ex)
+            catch (WebException ex)
             {
+                if (ex.Response is HttpWebResponse errorResponse)
+                {
+
+                    var errorResponseEx = JsonConvert.DeserializeObject<NsError>(response.Content);
+                    string errorDetail = "";
+                    foreach (var error in errorResponseEx.oerrorDetails)
+                    {
+
+                        if (errorResponseEx.oerrorDetails.Count == 1)
+                        {
+                            errorDetail = error.detail;
+                        }
+                        else
+                        {
+                            errorDetail += error.detail + " - ";
+                        }
+
+                    }
+
+                    throw new ApiException($"API Error: {errorDetail}", null, response.StatusCode);
+                }
+                else
+                {
+                    // Handle other exceptions (e.g., network errors)
+                    throw new ApiException("Error during API request.", ex, HttpStatusCode.BadRequest);
+                }
                 // Handle specific exceptions or log the error
                 throw new Exception("Error during API request.", ex);
             }
