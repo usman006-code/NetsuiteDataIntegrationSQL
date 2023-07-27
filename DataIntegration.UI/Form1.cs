@@ -26,8 +26,10 @@ namespace DataIntegration.UI
             //SalesOrder salesOrder = new SalesOrder(accountId, CKey, CSecret, tKey, tSecret);
             //var obj = salesOrder.GetAllSalesOrders().Result;
 
-            CustomerRest customerRest = new CustomerRest(accountId, CKey, CSecret, tKey, tSecret);
-            var obj = customerRest.GetCustomer(1).Result;
+            //CustomerRest customerRest = new CustomerRest(accountId, CKey, CSecret, tKey, tSecret);
+            //var obj = customerRest.GetCustomer(1).Result;
+
+            
         }
     }
 }

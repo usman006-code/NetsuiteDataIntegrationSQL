@@ -1,5 +1,26 @@
 {
   "Version": 1,
-  "ProjectMap": {},
-  "NextColorIndex": 0
+  "ProjectMap": {
+    "a825190e-23b4-4034-9666-7a76eaabacdd": {
+      "ProjectGuid": "a825190e-23b4-4034-9666-7a76eaabacdd",
+      "DisplayName": "DataIntegration.Core",
+      "ColorIndex": 0
+    },
+    "3f5dc927-f4ba-418b-862c-5b452c7fb8b3": {
+      "ProjectGuid": "3f5dc927-f4ba-418b-862c-5b452c7fb8b3",
+      "DisplayName": "DataIntegration.UI",
+      "ColorIndex": 1
+    },
+    "5cd9da49-db52-45f2-b42e-4545ef7d4eea": {
+      "ProjectGuid": "5cd9da49-db52-45f2-b42e-4545ef7d4eea",
+      "DisplayName": "test",
+      "ColorIndex": 2
+    },
+    "628cc0ea-6077-4249-8318-856d3266ba7d": {
+      "ProjectGuid": "628cc0ea-6077-4249-8318-856d3266ba7d",
+      "DisplayName": "DataIntegration.Data",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
 }

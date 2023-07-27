@@ -8,5 +8,6 @@ namespace DataIntegration.Core.Services.Helper
 {
     public class EmailHelper
     {
+
     }
 }
