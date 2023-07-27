@@ -2,6 +2,13 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/DataIntegration.Core
-/DataIntegration.Data
-/DataIntegration.UI
+/DataIntegration.Data/obj/project.nuget.cache
+/DataIntegration.Data/obj/project.assets.json
+/DataIntegration.Data/obj/Debug/net6.0
+/DataIntegration.Data/obj/DataIntegration.Data.csproj.nuget.g.targets
+/DataIntegration.Data/obj/DataIntegration.Data.csproj.nuget.g.props
+/DataIntegration.Data/obj/DataIntegration.Data.csproj.nuget.dgspec.json
+/DataIntegration.UI/obj
+/DataIntegration.UI/bin/Debug/net6.0-windows
+/DataIntegration.Core/obj
+/DataIntegration.Core/bin/Debug/net6.0
