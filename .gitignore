@@ -3,3 +3,5 @@
 ################################################################################
 
 /DataIntegration.Core
+/DataIntegration.Data
+/DataIntegration.UI
