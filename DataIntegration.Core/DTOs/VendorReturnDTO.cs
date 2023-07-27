@@ -10,6 +10,6 @@ namespace DataIntegration.Core.DTOs
     public class VendorReturnDTO
     {
         public string Id { get; set; }
-        public List<NsLink> link { get; set; }
+        public List<NsLink> links { get; set; }
     }
 }

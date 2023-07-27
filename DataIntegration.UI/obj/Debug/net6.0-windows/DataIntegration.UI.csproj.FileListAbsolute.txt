@@ -44,3 +44,27 @@ D:\EPM Resources\Greg EPM\Netsuite\AFM Project\DataIntegration\DataIntegration.U
 D:\EPM Resources\Greg EPM\Netsuite\AFM Project\DataIntegration\DataIntegration.UI\obj\Debug\net6.0-windows\DataIntegration.UI.genruntimeconfig.cache
 D:\Upwork Projects\Greg EPM - ePBCS\Netsuite\AFM\Development\DataIntegration\DataIntegration.UI\bin\Debug\net6.0-windows\RestSharp.dll
 D:\Upwork Projects\Greg EPM - ePBCS\Netsuite\AFM\Development\DataIntegration\DataIntegration.UI\bin\Debug\net6.0-windows\DataIntegration.UI.dll.config
+D:\EPM Resources\Greg EPM\Netsuite\AFM Project\NetsuiteDataIntegrationSQL\DataIntegration.UI\bin\Debug\net6.0-windows\DataIntegration.UI.exe
+D:\EPM Resources\Greg EPM\Netsuite\AFM Project\NetsuiteDataIntegrationSQL\DataIntegration.UI\bin\Debug\net6.0-windows\DataIntegration.UI.dll.config
+D:\EPM Resources\Greg EPM\Netsuite\AFM Project\NetsuiteDataIntegrationSQL\DataIntegration.UI\bin\Debug\net6.0-windows\DataIntegration.UI.deps.json
+D:\EPM Resources\Greg EPM\Netsuite\AFM Project\NetsuiteDataIntegrationSQL\DataIntegration.UI\bin\Debug\net6.0-windows\DataIntegration.UI.runtimeconfig.json
+D:\EPM Resources\Greg EPM\Netsuite\AFM Project\NetsuiteDataIntegrationSQL\DataIntegration.UI\bin\Debug\net6.0-windows\DataIntegration.UI.dll
+D:\EPM Resources\Greg EPM\Netsuite\AFM Project\NetsuiteDataIntegrationSQL\DataIntegration.UI\bin\Debug\net6.0-windows\ref\DataIntegration.UI.dll
+D:\EPM Resources\Greg EPM\Netsuite\AFM Project\NetsuiteDataIntegrationSQL\DataIntegration.UI\bin\Debug\net6.0-windows\DataIntegration.UI.pdb
+D:\EPM Resources\Greg EPM\Netsuite\AFM Project\NetsuiteDataIntegrationSQL\DataIntegration.UI\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+D:\EPM Resources\Greg EPM\Netsuite\AFM Project\NetsuiteDataIntegrationSQL\DataIntegration.UI\bin\Debug\net6.0-windows\RestSharp.dll
+D:\EPM Resources\Greg EPM\Netsuite\AFM Project\NetsuiteDataIntegrationSQL\DataIntegration.UI\bin\Debug\net6.0-windows\DataIntegration.Core.dll
+D:\EPM Resources\Greg EPM\Netsuite\AFM Project\NetsuiteDataIntegrationSQL\DataIntegration.UI\bin\Debug\net6.0-windows\DataIntegration.Core.pdb
+D:\EPM Resources\Greg EPM\Netsuite\AFM Project\NetsuiteDataIntegrationSQL\DataIntegration.UI\obj\Debug\net6.0-windows\DataIntegration.UI.GlobalUsings.g.cs
+D:\EPM Resources\Greg EPM\Netsuite\AFM Project\NetsuiteDataIntegrationSQL\DataIntegration.UI\obj\Debug\net6.0-windows\DataIntegration.UI.csproj.AssemblyReference.cache
+D:\EPM Resources\Greg EPM\Netsuite\AFM Project\NetsuiteDataIntegrationSQL\DataIntegration.UI\obj\Debug\net6.0-windows\DataIntegration.UI.Form1.resources
+D:\EPM Resources\Greg EPM\Netsuite\AFM Project\NetsuiteDataIntegrationSQL\DataIntegration.UI\obj\Debug\net6.0-windows\DataIntegration.UI.csproj.GenerateResource.cache
+D:\EPM Resources\Greg EPM\Netsuite\AFM Project\NetsuiteDataIntegrationSQL\DataIntegration.UI\obj\Debug\net6.0-windows\DataIntegration.UI.GeneratedMSBuildEditorConfig.editorconfig
+D:\EPM Resources\Greg EPM\Netsuite\AFM Project\NetsuiteDataIntegrationSQL\DataIntegration.UI\obj\Debug\net6.0-windows\DataIntegration.UI.AssemblyInfoInputs.cache
+D:\EPM Resources\Greg EPM\Netsuite\AFM Project\NetsuiteDataIntegrationSQL\DataIntegration.UI\obj\Debug\net6.0-windows\DataIntegration.UI.AssemblyInfo.cs
+D:\EPM Resources\Greg EPM\Netsuite\AFM Project\NetsuiteDataIntegrationSQL\DataIntegration.UI\obj\Debug\net6.0-windows\DataIntegration.UI.csproj.CoreCompileInputs.cache
+D:\EPM Resources\Greg EPM\Netsuite\AFM Project\NetsuiteDataIntegrationSQL\DataIntegration.UI\obj\Debug\net6.0-windows\DataIntegration.UI.csproj.CopyComplete
+D:\EPM Resources\Greg EPM\Netsuite\AFM Project\NetsuiteDataIntegrationSQL\DataIntegration.UI\obj\Debug\net6.0-windows\DataIntegration.UI.dll
+D:\EPM Resources\Greg EPM\Netsuite\AFM Project\NetsuiteDataIntegrationSQL\DataIntegration.UI\obj\Debug\net6.0-windows\ref\DataIntegration.UI.dll
+D:\EPM Resources\Greg EPM\Netsuite\AFM Project\NetsuiteDataIntegrationSQL\DataIntegration.UI\obj\Debug\net6.0-windows\DataIntegration.UI.pdb
+D:\EPM Resources\Greg EPM\Netsuite\AFM Project\NetsuiteDataIntegrationSQL\DataIntegration.UI\obj\Debug\net6.0-windows\DataIntegration.UI.genruntimeconfig.cache

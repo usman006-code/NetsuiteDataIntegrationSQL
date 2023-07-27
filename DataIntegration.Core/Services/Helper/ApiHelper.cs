@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using DataIntegration.Core.DTOs.SubModels;
+using Newtonsoft.Json;
 using RestSharp;
 using RestSharp.Authenticators;
 using RestSharp.Authenticators.OAuth;
@@ -47,7 +48,7 @@ namespace DataIntegration.Core.Services.Helper
         }
         public async Task<T> PutAsync<T>(string requestUri, object data)
         {
-            Method method = Method.Put;
+            Method method = Method.Patch;
             return await SendRestRequestAsync<T>(method, requestUri,data);
         }
         public async Task<T> DeleteAsync<T>(string requestUri)
@@ -81,10 +82,28 @@ namespace DataIntegration.Core.Services.Helper
                 if (requestData != null)
                 {
                     request.AddJsonBody(requestData);
+                    //request.AddParameter("application/json", requestData, ParameterType.RequestBody);
                 }
-                var response = client.Execute(request);
-                var obj = JsonConvert.DeserializeObject<T>(response.Content);
-                return JsonConvert.DeserializeObject<T>(response.Content);
+                var response = client.ExecuteAsync(request).GetAwaiter().GetResult();
+                if(response.StatusCode == HttpStatusCode.OK || response.StatusCode == HttpStatusCode.Created)
+                {
+                    return JsonConvert.DeserializeObject<T>(response.Content);
+                }
+                else
+                {
+                    var errorResponse = JsonConvert.DeserializeObject<NsError>(response.Content);
+                    string errorDetail = "";
+                    foreach (var error in errorResponse.oerrorDetails)
+                    {
+                        if (errorResponse.oerrorDetails.Count == 1)
+                        {
+                            errorDetail += error.detail;
+                        }
+                        errorDetail += error.detail + " and ";
+                    }
+                    
+                    throw new ApiException($"API Error: {errorDetail}", null, response.StatusCode);
+                }
             }
             catch (Exception ex)
             {

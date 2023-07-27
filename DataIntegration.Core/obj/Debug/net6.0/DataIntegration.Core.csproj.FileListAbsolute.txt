@@ -23,3 +23,16 @@ D:\EPM Resources\Greg EPM\Netsuite\AFM Project\DataIntegration\DataIntegration.C
 D:\EPM Resources\Greg EPM\Netsuite\AFM Project\DataIntegration\DataIntegration.Core\obj\Debug\net6.0\DataIntegration.Core.dll
 D:\EPM Resources\Greg EPM\Netsuite\AFM Project\DataIntegration\DataIntegration.Core\obj\Debug\net6.0\ref\DataIntegration.Core.dll
 D:\EPM Resources\Greg EPM\Netsuite\AFM Project\DataIntegration\DataIntegration.Core\obj\Debug\net6.0\DataIntegration.Core.pdb
+D:\EPM Resources\Greg EPM\Netsuite\AFM Project\NetsuiteDataIntegrationSQL\DataIntegration.Core\bin\Debug\net6.0\DataIntegration.Core.deps.json
+D:\EPM Resources\Greg EPM\Netsuite\AFM Project\NetsuiteDataIntegrationSQL\DataIntegration.Core\bin\Debug\net6.0\DataIntegration.Core.dll
+D:\EPM Resources\Greg EPM\Netsuite\AFM Project\NetsuiteDataIntegrationSQL\DataIntegration.Core\bin\Debug\net6.0\ref\DataIntegration.Core.dll
+D:\EPM Resources\Greg EPM\Netsuite\AFM Project\NetsuiteDataIntegrationSQL\DataIntegration.Core\bin\Debug\net6.0\DataIntegration.Core.pdb
+D:\EPM Resources\Greg EPM\Netsuite\AFM Project\NetsuiteDataIntegrationSQL\DataIntegration.Core\obj\Debug\net6.0\DataIntegration.Core.GlobalUsings.g.cs
+D:\EPM Resources\Greg EPM\Netsuite\AFM Project\NetsuiteDataIntegrationSQL\DataIntegration.Core\obj\Debug\net6.0\DataIntegration.Core.csproj.AssemblyReference.cache
+D:\EPM Resources\Greg EPM\Netsuite\AFM Project\NetsuiteDataIntegrationSQL\DataIntegration.Core\obj\Debug\net6.0\DataIntegration.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\EPM Resources\Greg EPM\Netsuite\AFM Project\NetsuiteDataIntegrationSQL\DataIntegration.Core\obj\Debug\net6.0\DataIntegration.Core.AssemblyInfoInputs.cache
+D:\EPM Resources\Greg EPM\Netsuite\AFM Project\NetsuiteDataIntegrationSQL\DataIntegration.Core\obj\Debug\net6.0\DataIntegration.Core.AssemblyInfo.cs
+D:\EPM Resources\Greg EPM\Netsuite\AFM Project\NetsuiteDataIntegrationSQL\DataIntegration.Core\obj\Debug\net6.0\DataIntegration.Core.csproj.CoreCompileInputs.cache
+D:\EPM Resources\Greg EPM\Netsuite\AFM Project\NetsuiteDataIntegrationSQL\DataIntegration.Core\obj\Debug\net6.0\DataIntegration.Core.dll
+D:\EPM Resources\Greg EPM\Netsuite\AFM Project\NetsuiteDataIntegrationSQL\DataIntegration.Core\obj\Debug\net6.0\ref\DataIntegration.Core.dll
+D:\EPM Resources\Greg EPM\Netsuite\AFM Project\NetsuiteDataIntegrationSQL\DataIntegration.Core\obj\Debug\net6.0\DataIntegration.Core.pdb

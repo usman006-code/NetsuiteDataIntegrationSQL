@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5AeCAQzi8u1rMBP5MEqS0A1XOA8pSmC7judmnNTrxoYrx4pwV/KALDKd/3AnzKgQSFLASizpmIne1dw0cyRfmA==",
+  "dgSpecHash": "hGZsOX6DmUz9EKJ5Y5bqLiMigFR98R2Bv0YX2UFXqtFqBVmUJ9QiRlRUH0MHC/Wi5vNCDgUZKTRY/dtAWpiUqA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\Source\\Repos\\usman006-code\\NetsuiteDataIntegrationSQL\\DataIntegration.Data\\DataIntegration.Data.csproj",
+  "projectFilePath": "D:\\EPM Resources\\Greg EPM\\Netsuite\\AFM Project\\NetsuiteDataIntegrationSQL\\DataIntegration.Data\\DataIntegration.Data.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

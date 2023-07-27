@@ -22,9 +22,12 @@ namespace DataIntegration.UI
 
         private void start_Click(object sender, EventArgs e)
         {
-            
-            SalesOrder salesOrder = new SalesOrder(accountId,CKey,CSecret,tKey,tSecret);
-            var obj = salesOrder.GetSalesOrder();
+
+            //SalesOrder salesOrder = new SalesOrder(accountId, CKey, CSecret, tKey, tSecret);
+            //var obj = salesOrder.GetAllSalesOrders().Result;
+
+            CustomerRest customerRest = new CustomerRest(accountId, CKey, CSecret, tKey, tSecret);
+            var obj = customerRest.GetCustomer(1).Result;
         }
     }
 }

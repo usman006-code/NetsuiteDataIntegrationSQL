@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\Source\\Repos\\usman006-code\\NetsuiteDataIntegrationSQL\\DataIntegration.Data\\DataIntegration.Data.csproj": {}
+    "D:\\EPM Resources\\Greg EPM\\Netsuite\\AFM Project\\NetsuiteDataIntegrationSQL\\DataIntegration.Data\\DataIntegration.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\Source\\Repos\\usman006-code\\NetsuiteDataIntegrationSQL\\DataIntegration.Data\\DataIntegration.Data.csproj": {
+    "D:\\EPM Resources\\Greg EPM\\Netsuite\\AFM Project\\NetsuiteDataIntegrationSQL\\DataIntegration.Data\\DataIntegration.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Source\\Repos\\usman006-code\\NetsuiteDataIntegrationSQL\\DataIntegration.Data\\DataIntegration.Data.csproj",
+        "projectUniqueName": "D:\\EPM Resources\\Greg EPM\\Netsuite\\AFM Project\\NetsuiteDataIntegrationSQL\\DataIntegration.Data\\DataIntegration.Data.csproj",
         "projectName": "DataIntegration.Data",
-        "projectPath": "C:\\Users\\admin\\Source\\Repos\\usman006-code\\NetsuiteDataIntegrationSQL\\DataIntegration.Data\\DataIntegration.Data.csproj",
+        "projectPath": "D:\\EPM Resources\\Greg EPM\\Netsuite\\AFM Project\\NetsuiteDataIntegrationSQL\\DataIntegration.Data\\DataIntegration.Data.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Source\\Repos\\usman006-code\\NetsuiteDataIntegrationSQL\\DataIntegration.Data\\obj\\",
+        "outputPath": "D:\\EPM Resources\\Greg EPM\\Netsuite\\AFM Project\\NetsuiteDataIntegrationSQL\\DataIntegration.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

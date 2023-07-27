@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataIntegration.Core.DTOs
 {
-    public class SalesOrderDTO
+    public class CustomerDTO
     {
         public string Id { get; set; }
         public List<NsLink> links { get; set; }

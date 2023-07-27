@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataIntegration.Data
 {
-    internal class DbConnector
+    public class DbConnector
     {
     }
 }
