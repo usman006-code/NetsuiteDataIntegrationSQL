@@ -34,14 +34,16 @@ namespace DataIntegration.UI
 
         private void start_Click(object sender, EventArgs e)
         {
-            var serviceResponse = SettingValidationService.ValidateAppSettings(appSettings);
+            //var serviceResponse = SettingValidationService.ValidateAppSettings(appSettings);
 
             //SalesOrder salesOrder = new SalesOrder(accountId, CKey, CSecret, tKey, tSecret);
             //var obj = salesOrder.GetAllSalesOrders().Result;
 
             //CustomerRest customerRest = new CustomerRest(accountId, CKey, CSecret, tKey, tSecret);
             //var obj = customerRest.GetCustomer(1).Result;
-            richTextBox1.Text = serviceResponse.Message;
+            //richTextBox1.Text = serviceResponse.Message;
+            TestService testService = new TestService(appSettings);
+            string obj = testService.test();
         }
     }
 }
